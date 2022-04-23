@@ -1,9 +1,9 @@
 import {configureStore} from '@reduxjs/toolkit'
-import recipiesSlice from '../components/Home/homeSlice'
+import newsSlice from '../components/Home/homeSlice'
 
 const store =  configureStore({
     reducer:{
-        recipes:recipiesSlice.reducer
+        recipes:newsSlice.reducer
     }
 })
 
